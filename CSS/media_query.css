@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px) {
+    .nav_toggle{
+        display: block;
+
+    }
+
+    div nav ul li a{
+        color: black;
+     }
+     
+    .nav_link{
+        position: absolute;
+        background-color: white;
+        right: -100%;
+        top: 50px;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .active{
+        right: 0;
+    }
+
+    .nav_menu{
+        flex-direction: column;
+    }
+        .skills,.service,.project,.footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer >div{
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+    }
+    .third_section,.fifth_section,.sixth_section{
+        height: 120vh;
+    }
+    .fourth_section{
+        height: 150vh;
+        margin: 0;
+    }
+   
+}
